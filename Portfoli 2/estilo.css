@@ -1,0 +1,49 @@
+body{
+  background:#red;
+  height: 50px;
+width: 20px;
+}
+
+#cabecera{
+  width: auto;
+  height: 100px;
+  background-color: #red;
+}
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  font-family: Adove garamond;
+  word-spacing: 40px;
+
+  padding-top: 20px;
+}
+
+#contenedor{
+  background-color: #cyan;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+
+p{
+  color: orange;
+  line-height: 120px;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: Adobe Garamond;
+}
+
+.cercles{
+  border-radius: 20%;
+  height: 190px;
+  width: 190px;
+  background: yellow;
+
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
