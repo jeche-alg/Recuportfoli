@@ -1,0 +1,67 @@
+body{
+background-color:lightblue;
+}
+
+#cesped{
+width:2000px;
+height:200px;
+background-color:brown;
+position:relative;
+top:900px;
+}
+
+@keyframes floreta {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#flor{
+width:25px;
+height:25px;
+border-radius:50%;
+background-color:yellow;
+margin: 0 auto;
+top:350px;
+left:500px;
+position: relative;
+animation: floreta 4s; 
+}
+
+.petalo{
+width:100px;
+height:100px;
+background-color:white;
+border-radius:0% 100% 0% / 0% 100% 0% 100%;
+position: relative;
+}
+
+#p1{
+top:-100px;
+left:-100px;
+}
+
+#p2{
+top:-75px;
+left:30px;
+}
+
+#p3{
+top:-180px;
+left:-100px;
+transform:rotate(90deg);
+}
+
+#p4{
+top:-400px;
+left:20px;
+transform: rotate(90deg);
+}
+
+.palo{
+height:500px;
+width:50px;
+background-color:black;
+position:relative;
+top:400px;
+left:1420px;
+}
