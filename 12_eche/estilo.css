@@ -1,0 +1,122 @@
+body{
+background-color:lightblue;
+}
+
+#cesped{
+width:2000px;
+height:200px;
+background-color:brown;
+position:relative;
+top:900px;
+z-index:5; 
+}
+
+@keyframes floreta {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#flor{
+width:25px;
+height:25px;
+border-radius:50%;
+background-color:yellow;
+margin: 0 auto;
+top:350px;
+left:500px;
+position: relative;
+ animation: floreta 1s  infinite linear;
+ z-index:10;
+}
+
+.petalo{
+width:100px;
+height:100px;
+background-color:white;
+border-radius:0% 100% 0% / 0% 100% 0% 100%;
+position: relative;
+z-index:10;
+}
+
+#p1{
+top:-100px;
+left:-100px;
+}
+
+#p2{
+top:-75px;
+left:30px;
+}
+
+#p3{
+top:-180px;
+left:-100px;
+transform:rotate(90deg);
+}
+
+#p4{
+top:-400px;
+left:20px;
+transform: rotate(90deg);
+}
+
+.palo{
+height:350px;
+width:30px;
+background-color:grey;
+position:absolute;
+left:1435px;
+margin-top:330px;
+z-index:5;
+}
+
+#luna{
+height:150px;
+width:150px;
+background-color:silver;
+position: absolute;
+clip-path: circle(43.2% at 51% 50%);
+bottom:800px;
+z-index:10;
+}
+
+#casa{
+width:500px;
+height:500px;
+background-color:yellow;
+clip-path: polygon(50% 0%, 76% 42%, 77% 100%, 18% 100%, 21% 43%);
+position: absolute;
+z-index:40;
+margin-top:175px;
+}
+
+#nube{
+width:500px;
+height:100px;
+background-color: white;
+z-index:20;
+border-radius:50%;
+position: absolute;
+margin-left:500px;
+ animation: nube 4s;
+}
+@keyframes nube {
+0% {transform: translateX(0);}
+100% {transform: translateX(200px);} infinite linear;
+}
+
+#montaña{
+width:300px;
+height:400px;
+background-color:green;
+border-radius: 49% 51% 100% 0% / 98% 100% 0% 2%;
+margin-top:300px;
+margin-left:700px;
+animation: montaña 4s;
+z-index:5;
+}
+
+@keyframes montaña {
+0% {transform: translateX(0);}
+100% {transform: translateY(200px);}
+}
